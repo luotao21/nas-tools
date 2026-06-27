@@ -8,7 +8,7 @@
 version: "3"
 services:
   nas-tools:
-    image: linyuan0213/nas-tools:latest
+    image: luotao21/nas-tools:latest
     ports:
       - 3000:3000        # 默认的webui控制端口
     volumes:
@@ -28,14 +28,14 @@ services:
       - chrome
 
   ocr:
-    image: linyuan0213/nas-tools-ocr:latest
+    image: luotao21/nas-tools-ocr:latest
     container_name: nas-tools-ocr
     ports:
       - 9300:9300
     restart: always
 
   chrome:
-    image: linyuan0213/nas-tools-chrome:latest
+    image: luotao21/nas-tools-chrome:latest
     container_name: nas-tools-chrome
     shm_size: 2g # 共享内存大小
     ports:
@@ -60,18 +60,18 @@ docker run -d \
     -e PUID=0     `# 想切换为哪个用户来运行程序，该用户的uid` \
     -e PGID=0     `# 想切换为哪个用户来运行程序，该用户的gid` \
     -e UMASK=000  `# 掩码权限，默认000，可以考虑设置为022` \
-    linyuan0213/nas-tools:latest
+    luotao21/nas-tools:latest
 
 # OCR服务（可选，用于验证码识别）
 docker run -d \
     --name nas-tools-ocr \
     -p 9300:9300 \
-    linyuan0213/nas-tools-ocr:latest
+    luotao21/nas-tools-ocr:latest
 
 # Chrome服务（可选，用于网页自动化）
 docker run -d \
     --name nas-tools-chrome \
     -p 9850:9850 \
     --shm-size=2g `# 共享内存大小` \
-    linyuan0213/nas-tools-chrome:latest
+    luotao21/nas-tools-chrome:latest
 ```

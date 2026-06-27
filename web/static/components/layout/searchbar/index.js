@@ -162,7 +162,7 @@ export class LayoutSearchbar extends CustomElement {
                   重启
                 </a>
                 <div class="dropdown-divider"></div>
-                <a href="https://github.com/linyuan0213/nas-tools" target="_blank" class="dropdown-item">帮助中心</a>
+                <a href="https://github.com/luotao21/nas-tools" target="_blank" class="dropdown-item">帮助中心</a>
               </div>
             </div>
           </div>

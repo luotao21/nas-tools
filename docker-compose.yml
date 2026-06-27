@@ -1,7 +1,7 @@
 version: "3"
 services:
   nas-tools:
-    image: linyuan0213/nas-tools:latest
+    image: luotao21/nas-tools:latest
     ports:
       - 3000:3000        # 默认的webui控制端口
     volumes:
@@ -27,14 +27,14 @@ services:
       - chrome
 
   ocr:
-    image: linyuan0213/nas-tools-ocr:latest
+    image: luotao21/nas-tools-ocr:latest
     container_name: nas-tools-ocr
     ports:
       - 9300:9300
     restart: always
 
   chrome:
-    image: linyuan0213/nas-tools-chrome:latest
+    image: luotao21/nas-tools-chrome:latest
     container_name: nas-tools-chrome
     shm_size: 2g # 共享内存大小
     environment:

@@ -70,6 +70,7 @@ dependencies = [
     "pysmb>=1.2.10",
     "serverchan-sdk>=1.0.6",
     "bencodepy>=0.9.5",
+    "anitopy>=2.1.1",
 ]
 
 [dependency-groups]

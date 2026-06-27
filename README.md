@@ -1,6 +1,6 @@
 # NAS-Tools - 多功能媒体库管理工具
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/linyuan0213/nas-tools)](https://hub.docker.com/r/linyuan0213/nas-tools)
+[![Docker Pulls](https://img.shields.io/docker/pulls/luotao21/nas-tools)](https://hub.docker.com/r/luotao21/nas-tools)
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-blue)](https://t.me/+UxUIoJMmH2YwYWE1)
 
 NAS-Tools 是一个功能强大的媒体库管理工具，提供自动化追剧、资源下载、文件整理和订阅管理等功能，适合PT用户和影视爱好者使用。
@@ -29,10 +29,10 @@ NAS-Tools 是一个功能强大的媒体库管理工具，提供自动化追剧�
 
 ## 支持站点
 - 完整支持站点列表请查看[支持站点](docs/supported_sites.md)文档
-- 如需新增站点支持，请在[nas-tools-sites项目](https://github.com/linyuan0213/nas-tools-sites)提issues
+- 如需新增站点支持，请在[nas-tools-sites项目](https://github.com/luotao21/nas-tools-sites)提issues
 
 ## 支持与帮助
-- 问题反馈: [GitHub Issues](https://github.com/linyuan0213/nas-tools/issues)
+- 问题反馈: [GitHub Issues](https://github.com/luotao21/nas-tools/issues)
 - 交流群组: [Telegram群组](https://t.me/+UxUIoJMmH2YwYWE1)
 - 文档贡献: 欢迎提交Pull Request改进文档
 
