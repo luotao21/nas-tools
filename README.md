@@ -1,6 +1,6 @@
 # NAS-Tools - 多功能媒体库管理工具
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/luotao21/nas-tools)](https://hub.docker.com/r/luotao21/nas-tools)
+[![GHCR](https://img.shields.io/badge/GHCR-ghcr.io%2Fluotao21%2Fnas--tools-blue)](https://github.com/users/luotao21/packages/container/package/nas-tools)
 [![Telegram Group](https://img.shields.io/badge/Telegram-Group-blue)](https://t.me/+UxUIoJMmH2YwYWE1)
 
 NAS-Tools 是一个功能强大的媒体库管理工具，提供自动化追剧、资源下载、文件整理和订阅管理等功能，适合PT用户和影视爱好者使用。
