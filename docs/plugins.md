@@ -25,7 +25,7 @@ NAS-Tools提供了丰富的插件系统，可以扩展系统的功能。本章�
 1. 在docker-compose.yml中添加chrome服务配置：
    ```yaml
    chrome:
-    image: ghcr.io/luotao21/nas-tools-chrome:latest
+    image: ghcr.io/nas-tools/nas-tools-chrome:latest
      container_name: nas-tools-chrome
      shm_size: 2g # 共享内存大小
      volumes:

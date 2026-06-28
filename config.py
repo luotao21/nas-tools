@@ -99,7 +99,7 @@ REDIS_PORT = "6379"
 MT_URL = 'https://api.m-team.io'
 
 # sites.dat github
-SITES_DATA_URL = "https://api.github.com/repos/luotao21/nas-tools-sites/releases/latest"
+SITES_DATA_URL = "https://api.github.com/repos/nas-tools/nas-tools-sites/releases/latest"
 
 # 线程锁
 lock = Lock()

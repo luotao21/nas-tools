@@ -3,7 +3,7 @@
 ## 内建索引器
 - 站点维护中添加站点后，支持的内建索引器会自动显示
 - **只有选中的站点才会在搜索中使用**
-- 新站点适配需求请在[nas-tools-sites项目](https://github.com/luotao21/nas-tools-sites)提issues
+- 新站点适配需求请在[nas-tools-sites项目](https://github.com/nas-tools/nas-tools-sites)提issues
 
 ## 外置索引器
 ### Jackett
